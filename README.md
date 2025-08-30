@@ -1,12 +1,35 @@
 # Active Directory Home Lab (VirtualBox + Windows Server + Windows 10/11)
 
-I built this as a graduate student in a Master’s program in Cybersecurity & Information Assurance.  
+I built this home lab as a graduate student in a Master’s program in Cybersecurity & Information Assurance.  
 This project was inspired by **Josh Madakor’s YouTube tutorial**:  
-*“How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell”*  
-
 📺 Watch the original video here: [YouTube Link](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c)  
 
-My goal was to challenge myself, grow my technical skills, and better understand how **Active Directory and Windows networking** work together in practice.
+---
+
+## Objective
+This project was built to give me practical experience setting up Active Directory and Windows networking in a home lab. My goal was to understand how services like DNS, DHCP, and NAT work together, learn how to join a client to a domain, and get comfortable managing users and groups. Writing everything down also helped me practice explaining technical steps in a clear way for my portfolio.
+
+---
+
+## Skills Learned
+- Configuring **Active Directory Domain Services (AD DS)**
+- Setting up **DNS, DHCP, and NAT routing** in Windows Server
+- Automating **bulk user creation at scale** (1,000 users with PowerShell ISE)
+- Understanding **Windows networking** (IP addressing, internal vs external networks)
+- Creating and managing **domain users, groups, and organizational units (OUs)**
+- Practicing **identity and access management (IAM)** in a safe lab environment
+- Using **snapshots and resets** for testing and troubleshooting
+- Documenting and presenting a technical project for a portfolio
+
+---
+
+## Tools Used
+- **Oracle VirtualBox** (virtualization platform)
+- **Windows Server 2019/2022** (Domain Controller)
+- **Windows 10/11** (domain client machine)
+- **Active Directory Users and Computers (ADUC)**
+- **DHCP, DNS, and Routing and Remote Access Services (RRAS)**
+- **PowerShell ISE** (for bulk user creation)
 
 ---
 
@@ -205,4 +228,4 @@ My goal was to challenge myself, grow my technical skills, and better understand
 ## Credits
 - Inspired by **Josh Madakor’s YouTube video**:
 - [How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c)
-- Documented as part of my work as a **graduate student in a Master’s program in Cybersecurity & Information Assurance**
+- Documented as part of my learning process as a graduate student in Cybersecurity & Information Assurance  
