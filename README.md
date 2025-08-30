@@ -175,5 +175,5 @@ My goal was to challenge myself, grow my technical skills, and better understand
 
 ## Credits
 - Inspired by **Josh Madakor’s YouTube video**:  
-  [How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell](https://www.youtube.com/your-video-link)  
+  [How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell]([https://www.youtube.com/your-video-link](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c))  
 - Documented as part of my work as a **graduate student in a Master’s program in Cybersecurity & Information Assurance**
