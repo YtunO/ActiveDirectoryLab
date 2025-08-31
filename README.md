@@ -197,8 +197,8 @@ This project was built to give me practical experience setting up Active Directo
 <img width="1024" height="768" alt="64" src="https://github.com/user-attachments/assets/c22670d5-b265-491a-99fc-6fed4f143730" />
 <img width="1024" height="768" alt="65" src="https://github.com/user-attachments/assets/aee117c6-b93b-4ffc-8a46-3648edee11b2" />
 <img width="1024" height="768" alt="66" src="https://github.com/user-attachments/assets/8da9d741-6d33-4707-afe9-90d398d1a2a7" />
+<img width="1822" height="842" alt="70" src="https://github.com/user-attachments/assets/b0eecab4-eff7-4220-b248-9b56a64af75c" />
 <img width="1024" height="768" alt="69" src="https://github.com/user-attachments/assets/2f412d0c-9898-4eca-ac9e-a5f341ed5e03" />
-
 ---
 
 ## 12. Verification Checklist
