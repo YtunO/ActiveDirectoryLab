@@ -1,20 +1,18 @@
 # Active Directory Home Lab (VirtualBox + Windows Server + Windows 10/11)
 
-I built this home lab as a graduate student in a Master’s program in Cybersecurity & Information Assurance.  
+## Objective
+This project was built to give me practical experience setting up Active Directory and Windows networking in a home lab. My goal was to understand how services like DNS, DHCP, and NAT work together, learn how to join a client to a domain, and get comfortable managing users and groups. Writing everything down also helped me practice explaining technical steps in a clear way for my portfolio.
+
 This project was inspired by **Josh Madakor’s YouTube tutorial**:  
 📺 Watch the original video here: [YouTube Link](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c)  
 
----
-
-## Objective
-This project was built to give me practical experience setting up Active Directory and Windows networking in a home lab. My goal was to understand how services like DNS, DHCP, and NAT work together, learn how to join a client to a domain, and get comfortable managing users and groups. Writing everything down also helped me practice explaining technical steps in a clear way for my portfolio.
 
 ---
 
 ## Skills Learned
 - Configuring **Active Directory Domain Services (AD DS)**
 - Setting up **DNS, DHCP, and NAT routing** in Windows Server
-- Automating **bulk user creation at scale** (1,000 users with PowerShell ISE)
+- Automating **bulk user creation at scale** (1,000+ users with PowerShell ISE)
 - Understanding **Windows networking** (IP addressing, internal vs external networks)
 - Creating and managing **domain users, groups, and organizational units (OUs)**
 - Practicing **identity and access management (IAM)** in a safe lab environment
