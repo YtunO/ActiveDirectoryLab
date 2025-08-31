@@ -82,7 +82,7 @@ This project was built to give me practical experience setting up Active Directo
 - Client:  
   - NIC → Internal Network (gets IP from DHCP on the DC)  
 
-*Add a small topology image here.*
+<img width="1169" height="688" alt="Topology" src="https://github.com/user-attachments/assets/ced4b73b-6f9e-48bf-bdff-cd6cdb4ce76f" />
 
 ---
 
@@ -94,7 +94,9 @@ This project was built to give me practical experience setting up Active Directo
    - Adapter 2 → Internal Network (name your internal network, e.g., `LABNET`).  
 4. Attach the Windows Server ISO and complete the installation.  
 
-*Add screenshots of VirtualBox settings and OS install.*
+<img width="1089" height="576" alt="1" src="https://github.com/user-attachments/assets/f5b68ce1-ec9b-4dca-a686-b6fd2e3c80ee" />
+<img width="1080" height="567" alt="2" src="https://github.com/user-attachments/assets/a50d5c3d-3850-48e1-ab00-c3c064987117" />
+<img width="1018" height="794" alt="3" src="https://github.com/user-attachments/assets/1db46506-b640-4d29-8aa1-36090e353d0c" />
 
 ---
 
@@ -106,9 +108,11 @@ This project was built to give me practical experience setting up Active Directo
 3. On the `INTERNAL` adapter, set:  
    - IP address: `172.16.0.1`  
    - Subnet mask: `255.255.255.0`  
-   - DNS server: `172.16.0.1`  
+   - DNS server: `172.0.0.1`
 
-*Add screenshots of adapter names and IPv4 settings.*
+<img width="1024" height="768" alt="5" src="https://github.com/user-attachments/assets/074b23c3-0ff8-4be9-842a-3ba12bb85d1e" />
+<img width="1024" height="768" alt="7" src="https://github.com/user-attachments/assets/e9561818-1331-427e-a8ec-d8a4586790e8" />
+<img width="1024" height="768" alt="8" src="https://github.com/user-attachments/assets/a4a371c5-757d-43c5-abbf-7613ab70f0f4" />
 
 ---
 
@@ -118,7 +122,8 @@ This project was built to give me practical experience setting up Active Directo
 3. Create a new forest (example: `mydomain.com`).  
 4. Accept defaults and restart when prompted.  
 
-*Add screenshots of the AD DS wizard and domain setup.*
+<img width="1024" height="768" alt="13" src="https://github.com/user-attachments/assets/2f951d25-d69c-433a-810b-69e199eb453b" />
+<img width="1024" height="768" alt="15" src="https://github.com/user-attachments/assets/14411952-b41b-4e5f-9796-842e13136dd2" />
 
 ---
 
@@ -128,7 +133,10 @@ This project was built to give me practical experience setting up Active Directo
 3. Run the wizard → choose **NAT**.  
 4. Select the `INTERNET` adapter as the public interface → start the service.  
 
-*Add screenshots of RRAS setup and status.*
+<img width="1024" height="768" alt="25" src="https://github.com/user-attachments/assets/0ac89ef2-a82f-49fa-8d7b-65d0c374e906" />
+<img width="1024" height="768" alt="29" src="https://github.com/user-attachments/assets/7621e15b-4671-4926-9e6b-efc6eadb2548" />
+<img width="1024" height="768" alt="31" src="https://github.com/user-attachments/assets/8b1982b1-77e6-4af6-8688-dbed09e25d14" />
+<img width="1024" height="768" alt="33" src="https://github.com/user-attachments/assets/0171e4f9-d5cc-4004-8686-0f119e371c02" />
 
 ---
 
@@ -140,9 +148,11 @@ This project was built to give me practical experience setting up Active Directo
    - Subnet mask: `255.255.255.0`  
    - Router (gateway): `172.16.0.1`  
    - DNS server: `172.16.0.1`  
-3. Authorize and activate the DHCP server.  
+3. Authorize and activate the DHCP server.
 
-*Add screenshots of DHCP scope configuration.*
+<img width="1024" height="768" alt="37" src="https://github.com/user-attachments/assets/45e73b95-c0cc-40e1-8a20-8285fa4441c8" />
+<img width="1024" height="768" alt="40" src="https://github.com/user-attachments/assets/e6bccb10-d9b0-4919-b9e6-d4d1b7405afb" />
+<img width="1024" height="768" alt="43" src="https://github.com/user-attachments/assets/06094202-c591-4d42-aeb9-b1648af9e6ee" />
 
 ---
 
@@ -150,7 +160,7 @@ This project was built to give me practical experience setting up Active Directo
 **Goal:** Test scalability and automation by creating **1,000 domain users** in Active Directory.  
 
 **Steps:**  
-1. Prepare a text file with 1,000 names (one per line, e.g., “First Last”).  
+1. Prepare a text file with 1,000+ names (one per line, e.g., “First Last”).  
 2. On the Domain Controller, open **PowerShell ISE as Administrator**.  
 3. Load the bulk-user script and point it to:  
    - The target OU (e.g., `_USERS`)  
@@ -158,17 +168,11 @@ This project was built to give me practical experience setting up Active Directo
    - The names list file  
 4. Run the script and watch as users are created in bulk.  
 5. Verify in **Active Directory Users and Computers (ADUC):**  
-   - Open the OU → confirm ~1,000 users exist  
-   - Optional: sort by creation date or check properties  
+   - Open the OU → confirm ~1,000+ users exist  
 
-**Screenshots to add here:**  
-- ISE showing script execution  
-- ADUC with ~1,000 user objects listed  
-
-**What I learned:**  
-- Automating account creation at scale saves hours of manual work.  
-- Bulk actions require good **OU structure and naming standards**.  
-- Snapshots are critical — easy rollback if something breaks.  
+<img width="1024" height="768" alt="55" src="https://github.com/user-attachments/assets/0586d22a-1560-4882-b3a0-54e7b3193cc9" />
+<img width="1024" height="768" alt="56" src="https://github.com/user-attachments/assets/4b274220-3ed3-47d9-83b7-5950f5a9a86d" />
+<img width="1024" height="768" alt="57" src="https://github.com/user-attachments/assets/aeb4d51a-3aa0-44d6-bd79-949bba4efab8" />
 
 ---
 
@@ -178,17 +182,22 @@ This project was built to give me practical experience setting up Active Directo
 3. Add one adapter: **Internal Network** (same as the DC’s `LABNET`).  
 4. Attach the Windows ISO, install the OS, and complete setup.  
 
-*Add screenshots of VirtualBox client settings and install.*
+<img width="954" height="573" alt="60" src="https://github.com/user-attachments/assets/12be7d2e-9e7a-4af7-be85-e1d0ab43b878" />
+<img width="1024" height="768" alt="61" src="https://github.com/user-attachments/assets/bd0663e6-2c08-4ee7-a481-063901a516e7" />
+
 
 ---
 
 ## 11. Join the Client to the Domain
 1. Confirm the client received an IP in `172.16.0.x` from DHCP.  
-2. Rename the computer to `CLIENT1` (optional).  
+2. Rename the computer to `CLIENT0` (optional).  
 3. Join the domain (`mydomain.com`).  
 4. Restart and sign in with a domain user account.  
 
-*Add screenshots of domain join and sign-in.*
+<img width="1024" height="768" alt="64" src="https://github.com/user-attachments/assets/c22670d5-b265-491a-99fc-6fed4f143730" />
+<img width="1024" height="768" alt="65" src="https://github.com/user-attachments/assets/aee117c6-b93b-4ffc-8a46-3648edee11b2" />
+<img width="1024" height="768" alt="66" src="https://github.com/user-attachments/assets/8da9d741-6d33-4707-afe9-90d398d1a2a7" />
+<img width="1024" height="768" alt="69" src="https://github.com/user-attachments/assets/2f412d0c-9898-4eca-ac9e-a5f341ed5e03" />
 
 ---
 
