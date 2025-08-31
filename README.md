@@ -233,5 +233,5 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 
 ## Credits
 - Inspired by **Josh Madakor’s YouTube video**:
-- [How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c)
+  [How to Setup a Basic Home Lab Running Active Directory (Oracle VirtualBox) | Add Users w/PowerShell](https://youtu.be/MHsI8hJmggI?si=JndBJOHAcuPhE79c)
 - Documented as part of my learning process as a graduate student in Cybersecurity & Information Assurance  
