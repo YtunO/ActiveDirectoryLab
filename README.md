@@ -60,7 +60,7 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 - **One Windows 10/11 Client** joined to the domain  
 - An **internal, isolated lab network**  
 
-*Add your overview screenshot here.*
+<img width="1169" height="688" alt="Topology" src="https://github.com/user-attachments/assets/ced4b73b-6f9e-48bf-bdff-cd6cdb4ce76f" />
 
 ---
 
@@ -80,8 +80,6 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
   - NIC 2 → Internal Network (static IP `172.16.0.1`, DNS = itself)  
 - Client:  
   - NIC → Internal Network (gets IP from DHCP on the DC)  
-
-<img width="1169" height="688" alt="Topology" src="https://github.com/user-attachments/assets/ced4b73b-6f9e-48bf-bdff-cd6cdb4ce76f" />
 
 ---
 
