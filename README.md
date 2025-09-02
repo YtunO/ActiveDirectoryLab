@@ -1,4 +1,4 @@
-# Active Directory Home Lab (VirtualBox + Windows Server + Windows 10/11)
+# Active Directory Home Lab (VirtualBox + Windows Server + Windows 10)
 
 ## Objective
 This project was built to give me practical experience setting up Active Directory and Windows networking in a home lab. My goal was to understand how services like DNS, DHCP, and NAT work together, learn how to join a client to a domain, and get comfortable creating and managing users and groups in Active Directory. 
