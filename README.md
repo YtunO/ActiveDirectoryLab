@@ -24,8 +24,8 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 
 ## Tools Used
 - **Oracle VirtualBox** (virtualization platform)
-- **Windows Server 2019/2022** (Domain Controller)
-- **Windows 10/11** (domain client machine)
+- **Windows Server 2019** (Domain Controller)
+- **Windows 10** (domain client machine)
 - **Active Directory Users and Computers (ADUC)**
 - **DHCP, DNS, and Routing and Remote Access Services (RRAS)**
 - **PowerShell ISE** (for bulk user creation)
@@ -57,7 +57,7 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
   - DNS
   - DHCP
   - NAT routing (so the client can reach the internet through the DC)  
-- **One Windows 10/11 Client** joined to the domain  
+- **One Windows 10 Client** joined to the domain  
 - An **internal, isolated lab network**  
 
 <img width="1169" height="688" alt="Topology" src="https://github.com/user-attachments/assets/ced4b73b-6f9e-48bf-bdff-cd6cdb4ce76f" />
@@ -66,8 +66,8 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 
 ## 2. Before You Start
 - Oracle VirtualBox installed  
-- Windows Server 2019/2022 ISO  
-- Windows 10 or 11 ISO  
+- Windows Server 2019 ISO  
+- Windows 10 ISO  
 - At least 12 GB RAM available on your host (suggestion: DC 4–6 GB, Client 4 GB)  
 - Sufficient disk space (about 40–60 GB total)  
 
@@ -88,7 +88,7 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 2. Assign memory (4–6 GB), 2 CPUs, and a 40–60 GB disk.  
 3. Add two network adapters:  
    - Adapter 1 → NAT  
-   - Adapter 2 → Internal Network (name your internal network, e.g., `LABNET`).  
+   - Adapter 2 → Internal Network  
 4. Attach the Windows Server ISO and complete the installation.  
 
 <img width="1089" height="576" alt="1" src="https://github.com/user-attachments/assets/f5b68ce1-ec9b-4dca-a686-b6fd2e3c80ee" />
@@ -153,7 +153,7 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 
 ---
 
-## 9. Bulk Add 1,000 Users with PowerShell ISE
+## 9. Bulk Add 1,000+ Users with PowerShell ISE
 **Goal:** Test scalability and automation by creating **1,000 domain users** in Active Directory.  
 
 **Steps:**  
@@ -174,9 +174,9 @@ Project was inspired by **Josh Madakor’s YouTube tutorial**:
 ---
 
 ## 10. Create the Client VM
-1. Create a new VM for Windows 10/11 in VirtualBox.  
+1. Create a new VM for Windows 10 in VirtualBox.  
 2. Assign memory (4 GB), 2 CPUs, and a 40 GB disk.  
-3. Add one adapter: **Internal Network** (same as the DC’s `LABNET`).  
+3. Add one adapter: **Internal Network** (same as the DC’s).  
 4. Attach the Windows ISO, install the OS, and complete setup.  
 
 <img width="954" height="573" alt="60" src="https://github.com/user-attachments/assets/12be7d2e-9e7a-4af7-be85-e1d0ab43b878" />
